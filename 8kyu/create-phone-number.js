@@ -14,3 +14,4 @@ function createPhoneNumber(numbers){
     return `(${areaCode}) ${firstPart}-${secondPart}`;
 }
 
+console.log("numbers:", createPhoneNumber())
